@@ -1,0 +1,8 @@
+[Unit]
+Description=Logging Service Tutorial
+
+[Service]
+ExecStart=@rootbindir@/logdaemon
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+[Unit]
+Description=Socket-Activated Service Tutorial
+
+[Service]
+ExecStart=@rootbindir@/sadaemon
+

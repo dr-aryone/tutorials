@@ -1,0 +1,10 @@
+[Unit]
+Description=Watchdog Service Tutorial
+
+[Service]
+Type=notify
+WatchdogSec=10
+ExecStart=@rootbindir@/watchdogdaemon
+
+[Install]
+WantedBy=multi-user.target
