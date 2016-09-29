@@ -18,3 +18,4 @@ Makefile
 */config.status
 */src/.deps/
 *.service
+*.socket
